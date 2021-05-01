@@ -1,4 +1,5 @@
 <template>
+    <v-app>
     <v-main class="">
         <v-container>
             <v-row justify="center">
@@ -13,7 +14,13 @@
                 </v-col>
             </v-row>
         </v-container>
+        <v-footer absolute color="white">
+            <v-col class="text-center overline">
+                copyright &copy; 2021 akabo, LLC
+            </v-col>
+        </v-footer>
     </v-main>
+    </v-app>
 </template>
 
 <script>
